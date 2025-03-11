@@ -1,0 +1,28 @@
+User Story 4: Office – Smart Access Control for Employees
+
+Issue:
+Offices need an efficient and trackable entry system that grants employees access while keeping unauthorized personnel out.
+
+Implementation Criteria:
+Use RFID-based employee badges for access.
+Integrate mobile-based access for remote employees.
+Store entry logs for security monitoring.
+Allow managers to modify access privileges dynamically.
+Acceptance Criteria:
+- Employees must authenticate using RFID or mobile authentication to enter.
+- The system should record entry times for security and attendance tracking.
+- Unauthorized entry attempts should trigger alerts.
+- Office administrators must be able to modify access permissions remotely.
+
+How the User Benefits:
+- Seamless Entry – Employees can enter without waiting for manual security checks.
+- Attendance Tracking – Logs track when employees enter the office.
+- Enhanced Security – Unauthorized attempts trigger alerts.
+-  Flexible Access – Managers can grant or revoke access remotely.
+
+
+
+
+
+
+
