@@ -1,0 +1,28 @@
+User Story 1: Hospital – Restricted Access for Staff
+
+Issue:
+Hospitals need a secure way to restrict access to critical areas like ICUs, operating rooms, and medical storage, ensuring that only authorized personnel can enter.
+
+Implementation Criteria:
+Use RFID authentication to grant access to hospital staff.
+Implement an access control system that allows administrators to add/remove staff permissions.
+Store access logs to track staff movements.
+Trigger alerts when unauthorized access is attempted.
+Acceptance Criteria:
+- The RFID scanner should verify hospital staff access before unlocking the door.
+- Unauthorized RFID scans should trigger an alert for security staff.
+- The system must log each entry attempt with staff credentials and timestamps.
+- Administrators should have remote control to grant or revoke access.
+
+How the User Benefits:
+- Secure Access – Only authorized hospital staff can enter restricted areas.
+- Accountability – Access logs track movements for safety.
+- Improved Security – Unauthorized entry attempts trigger alerts.
+- Flexible Control – Admins can add or remove access privileges remotely.
+
+
+
+
+
+
+
