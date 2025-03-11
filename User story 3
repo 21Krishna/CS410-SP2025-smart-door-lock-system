@@ -1,0 +1,30 @@
+User Story 3 : Hotel – Secure and Keyless Entry for Guests and Staff
+
+Issue:
+Hotels need a convenient and secure entry system for guests and staff, eliminating the need for physical keys while ensuring privacy and safety.
+
+Implementation Criteria:
+Use RFID key cards or mobile-based authentication for room entry.
+Allow staff access control for housekeeping and maintenance teams.
+Implement a temporary guest access system that expires upon checkout.
+Enable remote unlocking for guests using a mobile app.
+Acceptance Criteria:
+- Guests should be able to enter their rooms using RFID or a mobile app.
+- Hotel staff should have restricted access based on roles (e.g., housekeeping, maintenance).
+- Access should automatically expire when a guest checks out.
+- The system must allow remote unlocking for guests upon request.
+
+How the User Benefits:
+- Keyless Convenience – Guests can enter without carrying a physical key.
+- Role-Based Access – Staff can only access permitted areas.
+- Time-Limited Security – Guest access expires after checkout.
+- Remote Control – Guests can unlock their rooms via a mobile app.
+
+
+
+
+
+
+
+
+
