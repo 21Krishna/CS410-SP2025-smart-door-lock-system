@@ -1,0 +1,21 @@
+User Story 2: Mall – Store Security for Owners and Security Personnel
+
+Issue:
+Mall stores need a secure locking system that allows store owners to manage access and enables security personnel to override locks in emergencies.
+
+Implementation Criteria:
+Use RFID authentication for store owners and authorized employees.
+Allow mall security to override locks in case of emergency.
+Implement automatic lock scheduling for closing hours.
+Send real-time notifications for unauthorized access attempts.
+Acceptance Criteria:
+- Store owners and employees must authenticate via RFID to enter.
+- The system must lock doors automatically after business hours.
+- Security personnel must have an override feature for emergency situations.
+- Unauthorized access attempts must trigger an alert and log the attempt.
+
+How the User Benefits:
+- Store Security – Prevents unauthorized access to stores.
+- Automated Locking – Ensures stores are locked after business hours.
+- Emergency Control – Security personnel can unlock stores when needed.
+- Real-Time Alerts – Owners are notified of suspicious activity.
