@@ -1,0 +1,39 @@
+/* src/App.css */
+.app {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin-top: 80px;
+}
+
+.status-text {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+button {
+  font-size: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lock {
+  background-color: crimson;
+  color: white;
+}
+
+.unlock {
+  background-color: green;
+  color: white;
+}
+
+
+ 
