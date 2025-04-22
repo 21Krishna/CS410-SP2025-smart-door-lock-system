@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "my-esp32-project",
+			"path": "../Documents/PlatformIO/Projects/my-esp32-project"
+		}
+	],
+	"settings": {}
+}

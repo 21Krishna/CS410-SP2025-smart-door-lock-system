@@ -1,9 +1,30 @@
 {
   "dependencies": {
     "firebase": "^11.6.0",
+    "firebase-admin": "^13.2.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.5.0",
-    "react-scripts": "^5.0.1"
-  }
+    "react-scripts": "^5.0.1",
+    "serialport": "^13.0.0"
+  },
+  "name": "cs410-sp2025-smart-door-lock-system",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21Krishna/CS410-SP2025-smart-door-lock-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/21Krishna/CS410-SP2025-smart-door-lock-system/issues"
+  },
+  "homepage": "https://github.com/21Krishna/CS410-SP2025-smart-door-lock-system#readme",
+  "description": ""
 }

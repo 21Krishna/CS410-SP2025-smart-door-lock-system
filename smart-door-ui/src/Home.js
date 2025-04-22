@@ -18,14 +18,14 @@ function Home() {
     });
   }, []);
 
-  const lockDoor = () => {
-    set(ref(db, "door/status"), "locked");
-    toast.success("Door Locked Successfully!");
-  };
-
-  const unlockDoor = () => {
-    set(ref(db, "door/status"), "unlocked");
-    toast.success("Door Unlocked Successfully!");
+  const toggleDoor = () => {
+    if (status === "locked") {
+      set(ref(db, "door/status"), "unlocked");
+      toast.success("Door Unlocked Successfully!");
+    } else {
+      set(ref(db, "door/status"), "locked");
+      toast.success("Door Locked Successfully!");
+    }
   };
 
   const handleLogout = () => {
@@ -40,8 +40,12 @@ function Home() {
       <p>Current Status: <strong>{status.toUpperCase()}</strong></p>
 
       <div className="buttons">
-        <button className="lock" onClick={lockDoor}>🔒 Lock</button>
-        <button className="unlock" onClick={unlockDoor}>🔓 Unlock</button>
+        <button
+          className={status === "locked" ? "unlock" : "lock"}
+          onClick={toggleDoor}
+        >
+          {status === "locked" ? "🔓 Unlock" : "🔒 Lock"}
+        </button>
       </div>
 
       <br/>
@@ -54,3 +58,5 @@ function Home() {
 }
 
 export default Home;
+
+ 
