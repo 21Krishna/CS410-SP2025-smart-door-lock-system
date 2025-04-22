@@ -1,11 +1,9 @@
 const { SerialPort } = require('serialport');
 const admin = require('firebase-admin');
-const serviceAccount = require('./serviceAccountKey.json'); // Download your firebase admin SDK key
+const serviceAccount = require('./serviceAccountKey.json');
 
-// Connect to Arduino Serial Port (Check your port with ls /dev/tty.*)
 const port = new SerialPort({ path: '/dev/tty.usbmodem1101', baudRate: 9600 });
 
-// Initialize Firebase Admin
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://smartdoorlock-1d821-default-rtdb.firebaseio.com/"
@@ -19,8 +17,8 @@ statusRef.on('value', (snapshot) => {
   console.log("Door status changed to:", status);
 
   if (status === "locked") {
-    port.write("lock\n");    // Send "lock" to Arduino
+    port.write("lock\n");
   } else if (status === "unlocked") {
-    port.write("unlock\n");  // Send "unlock" to Arduino
+    port.write("unlock\n");
   }
 });
