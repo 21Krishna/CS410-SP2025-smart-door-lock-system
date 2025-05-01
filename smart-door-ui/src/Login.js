@@ -18,23 +18,28 @@ function Login({ onLogin }) {
   };
 
   return (
-    <div className="app">
-      <h2>Login to Smart Door Lock</h2>
-      <input
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <input
-        placeholder="Password"
-        type="password"
-        value={pass}
-        onChange={(e) => setPass(e.target.value)}
-      />
-      <button onClick={handleLogin}>Login</button>
-      <p style={{ color: "red" }}>{error}</p>
+    <div className="login-container">
+      <h1>🔐 Login to Smart Door Lock</h1>
+      <div className="login-form">
+        <input
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          value={pass}
+          onChange={(e) => setPass(e.target.value)}
+        />
+        <button onClick={handleLogin}>Login</button>
+        {error && <p style={{ color: "red" }}>{error}</p>}
+      </div>
     </div>
   );
 }
 
 export default Login;
+
+ 
